@@ -41,7 +41,7 @@ The [payment template](/src/components/payment.vue) is an example of how you can
 
 
 ## Templates
-VIPFS comes with a few templates to demonstre functionaiilit. You can eialy modiklfy these temaples to usity your soevcif needss wheeth theat be video hosting, file shaunr or e-commerce.
+VIPFS comes with a few templates to demonstrate functionality. You can easily modify these templates to suit your service's needs whether it be video hosting, file sharing, or e-commerce.
 
 - [Bio](/src/components/bio.vue)
 - [Post](/src/components/post.vue)
