@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VIPFS</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+            <h5 class="my-0 mr-md-auto font-weight-normal" @click="$router.push(`/`)">
+                <img src="storage/images/vipfs-logo.svg" alt="VIPFS Logo" width="100">
+            </h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-dark" href="https://github.com/Ideea-inc/vipfs">GitHub</a>
+                <a class="p-2 text-dark" href="https://ideea.io/vipfs/getting-started-tutorial">Tutorial</a>
+                <a class="p-2 text-dark" href="https://github.com/Ideea-inc/vipfs/tree/master/docs">Docs</a>
+            </nav>
+            <button class="btn btn-outline-primary" @click="onClickDonate">Donate</button>
+        </div>
+
+        <div>
+            <router-view />
+        </div>
+
+        <notifications position="bottom right" type="success" />
+    </div>
+
+    <script src="app.js" lang="text/javascript"></script>
+</body>
+</html>

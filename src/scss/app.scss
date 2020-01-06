@@ -1,0 +1,18 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+// Bio Page
+@import "bio.scss";
+
+
+// Miscellaneous
+.video-js .vjs-big-play-button {
+    position: absolute !important;
+    top: 49% !important;
+    left: 49% !important;
+}
+
+.gh-button-container {
+    float: none !important;
+}
+

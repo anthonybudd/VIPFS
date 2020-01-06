@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    entrypoint: "node /app/server.js"
+    container_name: app
+    restart: always
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+
+  ipfs:
+    build:
+      context: ./ipfs
+    container_name: ipfs
+    restart: always
+    ports:
+      - "8080:8080"
+      - "4001:4001"
+      - "5001:5001"
+    volumes:
+      - ./ipfs/.ipfs:/data/ipfs
+      - ./build:/app

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Publishing..."
+
+ipfs add -r -Q /app | ipfs name publish -Q

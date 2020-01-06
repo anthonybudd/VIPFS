@@ -1,0 +1,46 @@
+{
+    "name": "vipfs",
+    "version": "1.0.0",
+    "description": "VIPFS",
+    "main": "./src/index.js",
+    "author": "Anthony C. Budd",
+    "homepage": "https://ideea.io/vipfs",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+httpshttps://github.com/ideea-inc/vipfs.git"
+    },
+    "bugs": {
+        "url": "http://github.com/ideea-inc/vipfs/issues"
+    },
+    "scripts": {
+        "serve": "node server.js",
+        "build": "node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "publish": "docker exec -ti ipfs sh /scripts/publish"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.12.0",
+        "axios": "^0.18.0",
+        "babel-preset-es2015": "^6.24.1",
+        "bootstrap": "^4.2.1",
+        "node-sass": "^4.12.0",
+        "vue": "^2.6.10",
+        "vue-github-buttons": "^3.1.0",
+        "vue-notification": "^1.3.14",
+        "vue-router": "^3.0.2",
+        "vue-video-player": "^5.0.2",
+        "vuex": "^3.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.19.1",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "eslint-plugin-vue": "^6.1.2",
+        "express": "^4.16.4",
+        "laravel-mix": "^2.1.14"
+    }
+}
