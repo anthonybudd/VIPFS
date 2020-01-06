@@ -36,8 +36,8 @@ But just as one age has passed a new one is just beginning. Distributed technolo
 Deplatforming is modern-day book burning. Code is free speech. 
 
 
-## Etherum Payments with MetaMask
-The [payment template](/src/components/payment.vue) is an example of how you can handle Etherum payments in your VIPFS app using MetaMask. You can then use the method `this.$root.createRequestTransaction()` in your Vue component to prompt the user into sending an Ethereum transaction directly from their browser to your Ethereum account. You can find the code for this template in `src/components/payment.vue`, you can easily modify this code to make a fully decentralised crypto-based e-commerce store.
+## Ethereum Payments with MetaMask
+The [payment template](/src/components/payment.vue) is an example of how you can handle Ethereum payments in your VIPFS app using MetaMask. You can then use the method `this.$root.createRequestTransaction()` in your Vue component to prompt the user into sending an Ethereum transaction directly from their browser to your Ethereum account. You can find the code for this template in `src/components/payment.vue`, you can easily modify this code to make a fully decentralised crypto-based e-commerce store.
 
 
 ## Templates
