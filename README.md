@@ -9,7 +9,7 @@
 ---
 
 # VIPFS
-VIPFS is a simple framework for creating perminant apps, blogs and websites that cannot be taken offline, blocked or censored. The application is built with Vue.js and comes with useful templates and pre-integrated with Bootstrap, FontAwesome, Video.js, Vuex and VueRouter. Simply clone, build and run `npm run publish` to deploy it on IPFS and make it perminatly accesable to the world. 
+VIPFS is a simple framework for creating permanent apps, blogs and websites that cannot be taken offline, blocked or censored. The application is built with Vue.js and comes with useful templates and pre-integrated with Bootstrap, FontAwesome, Video.js, Vuex and VueRouter. Simply clone, build and run `npm run publish` to deploy it on IPFS and make it perminatly accesable to the world. 
 
 
 ## Getting Started
