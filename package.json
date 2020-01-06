@@ -5,7 +5,7 @@
     "main": "./src/index.js",
     "author": "Anthony C. Budd",
     "homepage": "https://ideea.io/vipfs",
-    "license": "MIT",
+    "license": "GPL",
     "repository": {
         "type": "git",
         "url": "git+httpshttps://github.com/ideea-inc/vipfs.git"
