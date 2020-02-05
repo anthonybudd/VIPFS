@@ -29,7 +29,7 @@ $ open https://gateway.ipfs.io/ipns/Qmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 ## Motivation
-The golden age of the internet is over. Gone are the days of free speech, edgy-content and free open discussion. The once young, cool tech startups have grown up into omnipotent dictators. Transgress today’s PC mono-culture by stating a scientific fact or open support of a democratically elected president, and these tyrants will [conspire to erase you from the digital world.](https://www.wired.com/story/facebook-bans-alex-jones-extremists/)
+The golden age of the internet is over. Gone are the days of free speech, edgy-content and free open discussion. The once young, cool tech startups have grown up into omnipotent dictators. Transgress today’s PC mono-culture and these tyrants will [erase you from the digital world.](https://www.wired.com/story/facebook-bans-alex-jones-extremists/)
 
 But just as one age has passed a new one is just beginning. Distributed technology and crypto technology has matured dramatically over the past 5 years. The technology has proved it’s effectiveness and the technical barriers to entry have never been lower. That’s why I decided to combine some of these technologies to create VIPFS. I created this framework to make it as simple as possible for anyone with only minimal technical ability to create an unstoppable decentralised application that is impossible to take offline, block or censor.
 
