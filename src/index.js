@@ -4,6 +4,7 @@ import VueVideoPlayer from 'vue-video-player'
 import Notifications from 'vue-notification'
 import 'video.js/dist/video-js.css'
 import VueRouter from 'vue-router'
+import VueMoment from 'vue-moment'
 import Vuex from 'vuex'
 import Vue from 'vue'
 
@@ -16,6 +17,7 @@ Vue.use(VueGitHubButtons)
 Vue.use(VueVideoPlayer)
 Vue.use(Notifications)
 Vue.use(VueRouter)
+Vue.use(VueMoment)
 Vue.use(Vuex)
 
 new Vue({
@@ -25,12 +27,12 @@ new Vue({
 
     router: new VueRouter({ routes }),
 
-    mounted () {
+    mounted() {
         console.warn('With Great Power Comes With Great Responsibility.')
     },
 
     methods: {
-        onClickDonate () {
+        onClickDonate() {
             this.createRequestTransaction(0.037)
                 .then(() => this.$notify('Thank You!!'))
                 .catch(err =>
@@ -59,7 +61,7 @@ new Vue({
          * @param {String} gasPrice - Optional. Set the amount of gas.
          * @returns {Promise}
          */
-        createRequestTransaction (value, data, gas, gasPrice) {
+        createRequestTransaction(value, data, gas, gasPrice) {
             return new Promise((resolve, reject) => {
                 if (typeof ethereum === 'undefined') {
                     console.warn('window.ethereum = ', typeof window.ethereum)
@@ -68,7 +70,7 @@ new Vue({
 
                 if (typeof value === 'number') {
                     if (typeof web3 !== 'object') {
-                        return reject(Error('Web3 is not enabled, cannot convert number to hex-encoded value')) 
+                        return reject(Error('Web3 is not enabled, cannot convert number to hex-encoded value'))
                     }
                     value = web3.toHex(web3.toWei(value.toString(), 'ether')) // Thanks u/cav_
                 }

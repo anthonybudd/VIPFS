@@ -7,7 +7,7 @@
                     <div class="px-4 py-4 pt-md-5 pb-md-4 mx-auto text-center">
                         <h1 class="display-4">Welcome to VIPFS 🖖</h1>
                         <p class="lead">
-                            VIPFS is a simple boilerplate project for creating perminant apps, blogs and websites that cannot be taken offline. The application is built with Vue.js and comes with useful templates and pre-integrated with Bootstrap, FontAwesome, Video.js, Vuex and VueRouter. Simply run the command `npm run publish` to deploy your app on IPFS and make it accesable to the world. Once published, your VIPFS application requires no perminant hosting yet it is almost impossible to take down.
+                            Vue.js + IPFS = VIPFS. VIPFS is an alt-tech framework for creating permanent apps, blogs and websites that cannot be taken offline by anyone, including the government.
                         </p>
 
                         <p>
@@ -40,25 +40,29 @@
                                     <h5>Templates</h5>
                                     <ul class="list-unstyled text-small">
                                         <li><a
-                                            class="text-muted"
-                                            href="#/bio"
-                                        >Bio</a></li>
+                                                class="text-muted"
+                                                href="#/bio"
+                                            >Bio</a></li>
                                         <li><a
-                                            class="text-muted"
-                                            href="#/post"
-                                        >Post</a></li>
+                                                class="text-muted"
+                                                href="#/post"
+                                            >Post</a></li>
                                         <li><a
-                                            class="text-muted"
-                                            href="#/video"
-                                        >Video</a></li>
+                                                class="text-muted"
+                                                href="#/video"
+                                            >Video</a></li>
                                         <li><a
-                                            class="text-muted"
-                                            href="#/gallery"
-                                        >Gallery</a></li>
+                                                class="text-muted"
+                                                href="#/gallery"
+                                            >Gallery</a></li>
                                         <li><a
-                                            class="text-muted"
-                                            href="#/payment"
-                                        >Payment</a></li>
+                                                class="text-muted"
+                                                href="#/payment"
+                                            >Payment</a></li>
+                                        <li><a
+                                                class="text-muted"
+                                                href="#/archive"
+                                            >Archive</a></li>
                                     </ul>
                                 </div>
 
@@ -66,21 +70,21 @@
                                     <h5>Resources</h5>
                                     <ul class="list-unstyled text-small">
                                         <li><a
-                                            class="text-muted"
-                                            href="https://github.com/Ideea-inc/vipfs"
-                                        >GitHub</a></li>
+                                                class="text-muted"
+                                                href="https://github.com/Ideea-inc/vipfs"
+                                            >GitHub</a></li>
                                         <li><a
-                                            class="text-muted"
-                                            href="https://ideea.io/vipfs/getting-started-tutorial"
-                                        >Tutorial</a></li>
+                                                class="text-muted"
+                                                href="https://ideea.io/vipfs/getting-started-tutorial"
+                                            >Tutorial</a></li>
                                         <li><a
-                                            class="text-muted"
-                                            href="https://github.com/Ideea-inc/vipfs/tree/master/docs"
-                                        >Docs</a></li>
+                                                class="text-muted"
+                                                href="https://github.com/Ideea-inc/vipfs/tree/master/docs"
+                                            >Docs</a></li>
                                         <li><a
-                                            class="text-muted"
-                                            href="https://youtu.be/MXlpKek8wQw"
-                                        >YouTube Tutorial</a></li>
+                                                class="text-muted"
+                                                href="https://youtu.be/MXlpKek8wQw"
+                                            >YouTube Tutorial</a></li>
                                     </ul>
                                 </div>
 
@@ -88,17 +92,17 @@
                                     <h5>About</h5>
                                     <ul class="list-unstyled text-small">
                                         <li><a
-                                            class="text-muted"
-                                            href="https://ideea.io/vipfs"
-                                        >VIPFS</a></li>
+                                                class="text-muted"
+                                                href="https://ideea.io/vipfs"
+                                            >VIPFS</a></li>
                                         <li><a
-                                            class="text-muted"
-                                            href="https://ideea.io/about"
-                                        >Team</a></li>
+                                                class="text-muted"
+                                                href="https://ideea.io/about"
+                                            >Team</a></li>
                                         <li><a
-                                            class="text-muted"
-                                            href="https://ideea.io"
-                                        >Ideea</a></li>
+                                                class="text-muted"
+                                                href="https://ideea.io"
+                                            >Ideea</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -112,19 +116,19 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex'
+import { mapActions, mapGetters } from "vuex";
 
 export default {
     computed: {
-        ...mapGetters(['gitHubStars'])
+        ...mapGetters(["gitHubStars"])
     },
 
-    mounted () {
-        this.getGitHubStars().catch(err => console.error(err))
+    mounted() {
+        this.getGitHubStars().catch(err => console.error(err));
     },
 
     methods: {
-        ...mapActions(['getGitHubStars'])
+        ...mapActions(["getGitHubStars"])
     }
-}
+};
 </script>

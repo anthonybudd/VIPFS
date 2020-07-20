@@ -19,9 +19,17 @@ $ cd vipfs
 $ npm install
 $ npm run build
 $ docker-compose up
-$ npm run publish // returns 'Qmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+$ npm run publish // wait.. returns 'Qmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 $ open http://localhost:8080/ipns/Qmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 $ open https://gateway.ipfs.io/ipns/Qmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+## Archiving Websites
+To archive a website run the following commands
+```sh
+$ npm run archive -- https://example.com
+$ npm run build
+$ npm run publish
 ```
 
 ## Video Tutorial
@@ -48,3 +56,4 @@ VIPFS comes with a few templates to demonstrate functionality. You can easily mo
 - [Video](/src/components/video.vue)
 - [Gallery](/src/components/gallery.vue)
 - [Payment](/src/components/payment.vue)
+- [Archive](/src/components/archive.vue)

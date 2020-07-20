@@ -4,6 +4,7 @@ import video from './components/video.vue'
 import gallery from './components/gallery.vue'
 import bio from './components/bio.vue'
 import payment from './components/payment.vue'
+import archive from './components/archive.vue'
 
 export default [
     {
@@ -34,5 +35,9 @@ export default [
         path: '/payment',
         name: 'payment',
         component: payment,
+    }, {
+        path: '/archive',
+        name: 'archive',
+        component: archive,
     }
 ]
