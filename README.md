@@ -4,13 +4,12 @@
 
 ---
 
-### [VIPFS](https://ideea.io/vipfs) &nbsp;&nbsp;|&nbsp;&nbsp; [Tutorial](https://ideea.io/vipfs/getting-started-tutorial) &nbsp;&nbsp;|&nbsp;&nbsp; [YouTube Tutorial](https://www.youtube.com/watch?v=Fq7h-cSN9i8) &nbsp;&nbsp;|&nbsp;&nbsp; [Docs](https://github.com/Ideea-inc/vipfs/tree/master/docs) &nbsp;&nbsp;|&nbsp;&nbsp; [Ideea.io](https://ideea.io) &nbsp;&nbsp;|&nbsp;&nbsp; [Hire Me](https://ideea.io/about#hire-me)
+### [VIPFS](https://ideea.io/vipfs) &nbsp;&nbsp;|&nbsp;&nbsp; [Tutorial](https://ideea.io/vipfs/getting-started-tutorial) &nbsp;&nbsp;|&nbsp;&nbsp; [YouTube Tutorial](https://www.youtube.com/watch?v=Fq7h-cSN9i8) &nbsp;&nbsp;|&nbsp;&nbsp; [Ideea.io](https://ideea.io) &nbsp;&nbsp;|&nbsp;&nbsp; [Hire Me](https://ideea.io/about#hire-me)
 
 ---
 
 # VIPFS
-VIPFS is a simple framework for creating permanent apps, blogs and websites that cannot be taken offline, blocked or censored. The application is built with Vue.js and comes with useful templates and pre-integrated with Bootstrap, FontAwesome, Video.js, Vuex and VueRouter. Simply clone, build and run `npm run publish` to deploy it on IPFS and make it perminatly accesable to the world. 
-
+VIPFS is a simple boilerplate project for creating permanent apps, blogs and websites that cannot be taken offline, blocked or censored. The application is built with Vue.js and IPFS, it comes with useful templates and it is pre-integrated with Bootstrap, FontAwesome, Video.js, Vuex and VueRouter. Simply clone, build and run `npm run publish` to deploy it on IPFS and make it permanently accesable to the world.
 
 ## Getting Started
 ```sh
@@ -19,16 +18,19 @@ $ cd vipfs
 $ npm install
 $ npm run build
 $ docker-compose up
+$ open http://localhost:8000
+
 $ npm run publish // wait.. returns 'Qmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 $ open http://localhost:8080/ipns/Qmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 $ open https://gateway.ipfs.io/ipns/Qmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ## Archiving Websites
-To archive a website run the following commands
+To archive a website run the following commands. This will archive a flat version of the webpage. Go to the /archive page to view an index of all archived webpages.
 ```sh
 $ npm run archive -- https://example.com
 $ npm run build
+$ open http://localhost:8000/archive
 $ npm run publish
 ```
 
@@ -37,7 +39,7 @@ $ npm run publish
 
 
 ## Motivation
-The golden age of the internet is over. Gone are the days of free speech, edgy-content and free open discussion. The once young, cool tech startups have grown up into omnipotent dictators. Transgress today’s PC mono-culture and these tyrants will [erase you from the digital world.](https://www.wired.com/story/facebook-bans-alex-jones-extremists/)
+The golden age of the internet is over. Gone are the days of free speech, edgy-content and free open discussion. The once young and cool tech platforms have grown up into omnipotent dictators. Transgress today’s PC mono-culture and these tyrants will erase you from the digital world.
 
 But just as one age has passed a new one is just beginning. Distributed technology and crypto technology has matured dramatically over the past 5 years. The technology has proved it’s effectiveness and the technical barriers to entry have never been lower. That’s why I decided to combine some of these technologies to create VIPFS. I created this framework to make it as simple as possible for anyone with only minimal technical ability to create an unstoppable decentralised application that is impossible to take offline, block or censor.
 

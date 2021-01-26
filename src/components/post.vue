@@ -11,7 +11,7 @@
                     >
 
                     <h1>Post Template</h1>
-                    <p>January 1, 2020 by <a href="#">Anonymous</a></p>
+                    <p>January 1, 2021 by <a href="#">Anonymous</a></p>
                     <p>Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                     <hr class="mb-5">
 
@@ -65,6 +65,6 @@
 export default {
     data: () => ({}),
 
-    mounted () {},
-}
+    mounted() {},
+};
 </script>

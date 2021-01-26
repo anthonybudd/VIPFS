@@ -5,7 +5,7 @@
                 <div class="col-md-10 offset-1 mt-5 mb-5">
 
                     <h1>Video Template</h1>
-                    <p class="text-muted">January 1, 2020 by <a href="#">Anonymous</a></p>
+                    <p class="text-muted">January 1, 2021 by <a href="#">Anonymous</a></p>
 
                     <video-player
                         class="video-player-box mb-5"
@@ -32,25 +32,27 @@
 export default {
     data: () => ({
         playerOptions: {
-            poster: 'storage/images/sts132.png',
+            poster: "storage/images/sts132.png",
             playbackRates: false,
-            language: 'en',
+            language: "en",
             fluid: true,
-            sources: [{
-                type: 'video/mp4',
-                src: 'storage/videos/sts132.mp4',
-            }],
-        }
+            sources: [
+                {
+                    type: "video/mp4",
+                    src: "storage/videos/sts132.mp4",
+                },
+            ],
+        },
     }),
 
-    mounted () {},
+    mounted() {},
 
     methods: {
-        onPlayerPlay: event => console.log(event),
-        onPlayerPause: event => console.log(event),
-        onPlayerEnded: event => console.log(event),
-        onPlayerWaiting: event => console.log(event),
-        onPlayerPlaying: event => console.log(event)
-    }
-}
+        onPlayerPlay: (event) => console.log(event),
+        onPlayerPause: (event) => console.log(event),
+        onPlayerEnded: (event) => console.log(event),
+        onPlayerWaiting: (event) => console.log(event),
+        onPlayerPlaying: (event) => console.log(event),
+    },
+};
 </script>
