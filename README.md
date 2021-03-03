@@ -1,12 +1,7 @@
 <p align="center">
-  <img width="192" src="https://ideea.io/static/img/vipfs-logo.svg" alt="VIPFS">
+  <img height="300" src="https://raw.githubusercontent.com/anthonybudd/vipfs/master/docs/img/vipfs-youtube-embed.png" alt="VIPFS">
 </p>
 
----
-
-### [VIPFS](https://ideea.io/vipfs) &nbsp;&nbsp;|&nbsp;&nbsp; [Tutorial](https://ideea.io/vipfs/getting-started-tutorial) &nbsp;&nbsp;|&nbsp;&nbsp; [YouTube Tutorial](https://www.youtube.com/watch?v=Fq7h-cSN9i8) &nbsp;&nbsp;|&nbsp;&nbsp; [Ideea.io](https://ideea.io) &nbsp;&nbsp;|&nbsp;&nbsp; [Hire Me](https://ideea.io/about#hire-me)
-
----
 
 # VIPFS
 VIPFS is a simple boilerplate project for creating permanent apps, blogs and websites that cannot be taken offline, blocked or censored. The application is built with Vue.js and IPFS, it comes with useful templates and it is pre-integrated with Bootstrap, FontAwesome, Video.js, Vuex and VueRouter. Simply clone, build and run `npm run publish` to deploy it on IPFS and make it permanently accesable to the world.
@@ -35,7 +30,7 @@ $ npm run publish
 ```
 
 ## Video Tutorial
-[![VIPFS Video Tutorial](https://ideea.io/static/img/vipfs-youtube-embed.png)](https://www.youtube.com/watch?v=Fq7h-cSN9i8)
+[![VIPFS Video Tutorial](https://raw.githubusercontent.com/anthonybudd/vipfs/master/docs/img/vipfs-youtube-embed.png)](https://www.youtube.com/watch?v=Fq7h-cSN9i8)
 
 
 ## Motivation
