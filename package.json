@@ -4,14 +4,13 @@
     "description": "VIPFS",
     "main": "./src/index.js",
     "author": "Anthony C. Budd",
-    "homepage": "https://ideea.io/vipfs",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+httpshttps://github.com/ideea-inc/vipfs.git"
+        "url": "git+httpshttps://github.com/anthonybudd/vipfs.git"
     },
     "bugs": {
-        "url": "http://github.com/ideea-inc/vipfs/issues"
+        "url": "http://github.com/anthonybudd/vipfs/issues"
     },
     "scripts": {
         "serve": "node server.js",

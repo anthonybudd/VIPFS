@@ -15,9 +15,9 @@
                         </p>
 
                         <p>
-                            <gh-btns-star slug="Ideea-inc/vipfs" />
-                            <gh-btns-watch slug="Ideea-inc/vipfs" />
-                            <gh-btns-fork slug="Ideea-inc/vipfs" />
+                            <gh-btns-star slug="anthonybudd/vipfs" />
+                            <gh-btns-watch slug="anthonybudd/vipfs" />
+                            <gh-btns-fork slug="anthonybudd/vipfs" />
                         </p>
                     </div>
 
@@ -27,15 +27,7 @@
             <footer class="pt-4 my-md-5 pt-md-5 border-top">
                 <div class="row">
                     <div class="col-12 col-md">
-                        <a href="https://ideea.io">
-                            <img
-                                class="mb-2"
-                                src="https://ideea.io/static/img/icon-small.png"
-                                alt="Ideea Logo"
-                                width="30"
-                            >
-                        </a>
-                        <small class="d-block mb-3 text-muted">© Ideea 2021</small>
+                        <small class="d-block mb-3 text-muted">© Anthony C. Budd 2021</small>
                     </div>
 
                     <div class="col-6 col-md">
@@ -73,11 +65,11 @@
                         <ul class="list-unstyled text-small">
                             <li><a
                                     class="text-muted"
-                                    href="https://github.com/Ideea-inc/vipfs"
+                                    href="https://github.com/anthonybudd/vipfs"
                                 >GitHub</a></li>
                             <li><a
                                     class="text-muted"
-                                    href="https://ideea.io/vipfs/getting-started-tutorial"
+                                    href="https://github.com/anthonybudd/vipfs/tree/master/docs/tutorial.md"
                                 >Tutorial</a></li>
                             <li><a
                                     class="text-muted"
@@ -100,7 +92,8 @@
                             <li><a
                                     class="text-muted"
                                     href="https://ideea.io"
-                                >Ideea</a></li>
+                                >Ideea</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

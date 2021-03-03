@@ -1,14 +1,15 @@
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/anthonybudd/vipfs/master/docs/img/vipfs-youtube-embed.png" alt="VIPFS">
+  <img height="300" src="https://raw.githubusercontent.com/anthonybudd/vipfs/master/docs/img/readme-header.png" alt="VIPFS">
 </p>
 
+Vue.js + IPFS = VIPFS. VIPFS is an alt-tech framework for creating permanent apps, blogs and websites that cannot be taken offline by anyone, including the government.
 
 # VIPFS
-VIPFS is a simple boilerplate project for creating permanent apps, blogs and websites that cannot be taken offline, blocked or censored. The application is built with Vue.js and IPFS, it comes with useful templates and it is pre-integrated with Bootstrap, FontAwesome, Video.js, Vuex and VueRouter. Simply clone, build and run `npm run publish` to deploy it on IPFS and make it permanently accesable to the world.
+VIPFS is a simple boilerplate project for creating permanent websites with Vue.js and IPFS, it comes with useful templates and it is pre-integrated with Bootstrap, FontAwesome, Video.js, Vuex and VueRouter. Simply clone, build and run `npm run publish` to deploy it on IPFS and make it permanently accesable to the world.
 
 ## Getting Started
 ```sh
-$ git clone git@github.com:Ideea-inc/vipfs.git
+$ git clone git@github.com:anthonybudd/vipfs.git
 $ cd vipfs
 $ npm install
 $ npm run build

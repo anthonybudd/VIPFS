@@ -15,9 +15,9 @@ const mutations = {
 }
 
 const actions = {
-    getGitHubStars ({ commit }) {
+    getGitHubStars({ commit }) {
         return new Promise((resolve, reject) => {
-            axios.get('https://api.github.com/repos/Ideea-inc/vipfs')
+            axios.get('https://api.github.com/repos/anthonybudd/vipfs')
                 .then(({ data }) => {
                     commit('setGitHubStars', data.stargazers_count)
                     resolve(data.stargazers_count)
