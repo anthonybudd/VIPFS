@@ -45,7 +45,7 @@
         "eslint-plugin-vue": "^6.2.2",
         "express": "^4.16.4",
         "laravel-mix": "^5.0.4",
-        "resolve-url-loader": "^3.1.2",
+        "resolve-url-loader": "^5.0.0",
         "sass-loader": "^8.0.2",
         "vue-template-compiler": "^2.6.12"
     }
